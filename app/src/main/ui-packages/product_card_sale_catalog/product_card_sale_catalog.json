@@ -1,0 +1,881 @@
+{
+  "name": "product_card_sale_catalog",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "TBY3qc0XHXSRZThWWP32NR",
+    "node": "1:564",
+    "version": "6231639273",
+    "component-id": "5c0444a7fc3e15cd47c3ce14d98b78ba11835ac0"
+  },
+  "default": "Product card/Sale/catalog",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Product card/Sale/catalog"
+      },
+      {
+        "type": "group",
+        "id": "photo"
+      },
+      {
+        "type": "group",
+        "id": "Sale label"
+      },
+      {
+        "type": "group",
+        "id": "Rating 5 stars"
+      },
+      {
+        "type": "group",
+        "id": "Add to favorite_button/inactive"
+      },
+      {
+        "type": "text",
+        "id": "Item"
+      },
+      {
+        "type": "text",
+        "id": "Brand name"
+      },
+      {
+        "type": "group",
+        "id": "old price"
+      },
+      {
+        "type": "text",
+        "id": "New price"
+      },
+      {
+        "type": "vector",
+        "id": "photo1"
+      },
+      {
+        "type": "image",
+        "id": "image"
+      },
+      {
+        "type": "vector",
+        "id": "bg"
+      },
+      {
+        "type": "text",
+        "id": "-20%"
+      },
+      {
+        "type": "group",
+        "id": "Star/activated"
+      },
+      {
+        "type": "group",
+        "id": "Star/activated1"
+      },
+      {
+        "type": "group",
+        "id": "Star/activated2"
+      },
+      {
+        "type": "group",
+        "id": "Star/activated3"
+      },
+      {
+        "type": "group",
+        "id": "Star/activated4"
+      },
+      {
+        "type": "text",
+        "id": "Number"
+      },
+      {
+        "type": "vector",
+        "id": "Star"
+      },
+      {
+        "type": "vector",
+        "id": "Star1"
+      },
+      {
+        "type": "vector",
+        "id": "Star2"
+      },
+      {
+        "type": "vector",
+        "id": "Star3"
+      },
+      {
+        "type": "vector",
+        "id": "Star4"
+      },
+      {
+        "type": "vector",
+        "id": "bg1"
+      },
+      {
+        "type": "group",
+        "id": "icon"
+      },
+      {
+        "type": "group",
+        "id": "favorite_border"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle"
+      },
+      {
+        "type": "text",
+        "id": "Old price"
+      }
+    ],
+    "modes": {
+      "Product card/Sale/catalog": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Product card/Sale/catalog"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Product card/Sale/catalog",
+            "is-structured": false,
+            "children": [
+              "photo",
+              "Sale label",
+              "Rating 5 stars",
+              "Add to favorite_button/inactive",
+              "Item",
+              "Brand name",
+              "old price",
+              "New price"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "photo",
+            "margin": {
+              "left": 1.0,
+              "right": 1.0,
+              "bottom": 76.0
+            },
+            "is-structured": false,
+            "children": [
+              "photo1",
+              "image"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Sale label",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 10.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 8.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "bg",
+              "-20%"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rating 5 stars",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 191.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Star/activated",
+              "Star/activated1",
+              "Star/activated2",
+              "Star/activated3",
+              "Star/activated4",
+              "Number"
+            ]
+          },
+          {
+            "id": "Add to favorite_button/inactive",
+            "margin": {
+              "left": 127.0,
+              "top": 164.0,
+              "right": 1.0,
+              "bottom": 60.0
+            },
+            "is-structured": false,
+            "children": [
+              "bg1",
+              "icon"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Item",
+            "margin": {
+              "left": 1.09326171875,
+              "top": 227.0,
+              "right": 43.7333984375,
+              "bottom": 17.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.13333333333333333
+            },
+            "text-content": "$text",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "typeface": "Metropolis"
+          },
+          {
+            "id": "Brand name",
+            "margin": {
+              "left": 1.0,
+              "top": 211.0,
+              "right": 78.0,
+              "bottom": 38.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6078431372549019
+            },
+            "text-content": "Dorothy Perkins",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 11.0,
+            "typeface": "Metropolis"
+          },
+          {
+            "id": "old price",
+            "margin": {
+              "left": 2.0,
+              "top": 246.0,
+              "right": 139.0
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle",
+              "Old price"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "New price",
+            "margin": {
+              "left": 29.0,
+              "top": 246.0,
+              "right": 112.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 4.54054054054054,
+              "saturation": 0.8447488584474886,
+              "value": 0.8588235294117647
+            },
+            "text-content": "14$",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": 1.4285714721679688,
+            "typeface": "Metropolis"
+          },
+          {
+            "id": "photo1",
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 162.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 254.0
+              }
+            },
+            "image-content": "$image ",
+            "scale": "cover"
+          },
+          {
+            "id": "bg",
+            "border-radius": 29.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "bg.svg"
+          },
+          {
+            "id": "-20%",
+            "margin": {
+              "left": 5.0,
+              "top": 7.0,
+              "right": 6.0,
+              "bottom": 6.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "-20% ",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 11.0,
+            "typeface": "Metropolis"
+          },
+          {
+            "id": "Star/activated",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 1.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Star"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Star/activated1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 16.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Star1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Star/activated2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 31.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Star2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Star/activated3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 46.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Star3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Star/activated4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 61.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Star4"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Number",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 77.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6078431372549019
+            },
+            "text-content": "(10)",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 0.8,
+            "typeface": "Metropolis"
+          },
+          {
+            "id": "Star",
+            "margin": {
+              "left": 0.5,
+              "top": 1.0,
+              "right": 0.5,
+              "bottom": 1.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.59716796875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.603515625
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "star.svg"
+          },
+          {
+            "id": "Star1",
+            "margin": {
+              "left": 0.5,
+              "top": 1.0,
+              "right": 0.5,
+              "bottom": 1.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.59716796875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.603515625
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "star1.svg"
+          },
+          {
+            "id": "Star2",
+            "margin": {
+              "left": 0.5,
+              "top": 1.0,
+              "right": 0.5,
+              "bottom": 1.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.59716796875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.603515625
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "star2.svg"
+          },
+          {
+            "id": "Star3",
+            "margin": {
+              "left": 0.5,
+              "top": 1.0,
+              "right": 0.5,
+              "bottom": 1.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.59716796875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.603515625
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "star3.svg"
+          },
+          {
+            "id": "Star4",
+            "margin": {
+              "left": 0.5,
+              "top": 1.0,
+              "right": 0.5,
+              "bottom": 1.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.59716796875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.603515625
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "star4.svg"
+          },
+          {
+            "id": "bg1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "bg1.svg"
+          },
+          {
+            "id": "icon",
+            "margin": 6.0,
+            "is-structured": false,
+            "children": [
+              "favorite_border"
+            ]
+          },
+          {
+            "id": "favorite_border",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 5.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 6.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 13.079019546508789
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "is-structured": false,
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle",
+            "margin": {
+              "top": 9.0,
+              "bottom": 10.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle.svg"
+          },
+          {
+            "id": "Old price",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.6078431372549019
+            },
+            "text-content": "21$",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": 1.4285714721679688,
+            "typeface": "Metropolis"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image ": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Product card/Sale/catalog",
+      "size": {
+        "width": 164.0,
+        "height": 260.0
+      },
+      "parameters": {
+        "text": "Blouse",
+        "image ": "image.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

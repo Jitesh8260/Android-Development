@@ -4,10 +4,13 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -16,8 +19,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -34,18 +39,20 @@ fun Prod(product: Product) {
             .size(Size.ORIGINAL).build()
     )
         .state
-    Column(
+    Box(
         modifier = Modifier
-            .clip(RoundedCornerShape(20.dp))
-            .height(300.dp)
-            .fillMaxWidth()
+            .clip(RoundedCornerShape(35.dp))
+            .padding(8.dp)
+            .height(250.dp)
             .background(MaterialTheme.colorScheme.primaryContainer)
     ) {
+        Column {
+
         if (imageState is AsyncImagePainter.State.Error) {
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(200.dp), contentAlignment = Alignment.Center
+                    .height(100.dp), contentAlignment = Alignment.Center
             ) {
                 CircularProgressIndicator()
             }
@@ -53,22 +60,24 @@ fun Prod(product: Product) {
         if (imageState is  AsyncImagePainter.State.Success) {
             Image(
                 modifier = Modifier
+                    .padding(horizontal = 15.dp, vertical = 10.dp)
                     .fillMaxWidth()
-                    .height(200.dp),
+                    .height(150.dp),
                 painter = imageState.painter,
                 contentDescription = product.title,
                 contentScale = ContentScale.Crop
             )
         }
+        Text(text = "${product.title}",
+            fontSize = 14.sp,
+            fontFamily = FontFamily.SansSerif,
+            modifier = Modifier.padding(horizontal=20.dp))
         Spacer(modifier = Modifier.height(6.dp))
-        Text(text = "${product.title} -- Price:${product.price}$",
+        Text(text = "${product.price}$",
             fontSize = 17.sp,
             fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(horizontal=16.dp))
-        Spacer(modifier = Modifier.height(6.dp))
-        Text(text =product.description,
-            fontSize = 10.sp,
-            modifier = Modifier.padding(horizontal=16.dp))
+            modifier = Modifier.padding(horizontal=20.dp))
 
+    }
     }
 }
